@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(14, 40, 208);
+}
+header{
+    display: inline block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: orangered;
+    width: 100%;
+    border: 3px solid black;
+    padding: 20px 0px;
+}
+.menu ul li {
+    display: inline-block;
+    font-size: 20px;
+    margin-top: 30px;
+    padding-right: 20px;
+}
+menu ul li :hover{
+    background-color: gray;
+    width: 50px;
+    border-radius: 10px;
+}
+.menu ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 18px 20px;
+    margin-top: 50px;
+}
+.menu ul input[type=text]{
+    padding: 3px;
+    padding-right: 40px;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+.menu{
+    margin-right: 15px;
+    float:right;
+
+}
+footer{
+    background-color: rgb(189, 127, 255);
+    color:white;
+    border-top:10px solid rgb(0, 0, 0);
+}
+footer .footer{
+    text-align: center;
+}
+aside{
+    margin-top: 140px;
+    background-image: url("pic/ranny.png");
+    width: 100%;
+}
+.menu ul li a:hover{
+    color: orange;
+}

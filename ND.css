@@ -1,0 +1,16 @@
+.anime{
+    display: inline-block;
+    margin-left: 10px;
+    padding: 20px 20px;
+}
+.anime{
+    color: white;
+    text-align: center;
+} 
+.anime p a{
+    color: white;
+
+}
+aside .anime .dowload a:hover{
+    color: orangered;
+}
